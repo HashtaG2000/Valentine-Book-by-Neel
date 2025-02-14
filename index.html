@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shillak Gappa</title>
+    <title>Ganja, Connecting People 🤝</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -132,15 +132,15 @@
 </head>
 <body>
     <form id="login-form">
-        <label for="code">Passcode Btao, Wrna yha se bhaag jao !!:</label>
+        <label for="code">Passcode to Enter:</label>
         <input type="text" id="code" name="code" placeholder="Passcode">
-        <button type="submit" id="submit-btn">Aao chale OYO</button>
+        <button type="submit" id="submit-btn">Deal breaker</button>
     </form>
     
     <script>
         const form = document.getElementById('login-form');
         const codeInput = document.getElementById('code');
-        const secretCode = 'March'; // Replace with your secret code
+        const secretCode = '18.12.24'; // Replace with your secret code
         const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 
         form.addEventListener('submit', (e) => {
@@ -150,8 +150,7 @@
             if (userInput === secretCode) {
                 window.location.href = nextPageUrl; // Redirect to new page
             } else {
-                showCustomAlert("Hint: Ek mausam aaya tha bada khaas,\nDil me uthi thi ek meethi aas,\nHawaon me thi ek nayi khushbu,\nTabhi hue the hum dono paas.", 
-                "Samajhne wale samajh gaye, jo na samjhe woh anari hai! 😉");
+                showCustomAlert("Hint: Ek mausam aaya tha bada khaas,\nDil me uthi thi ek meethi aas,\nHawaon me thi ek nayi khushbu 😉");
             }
         });
 
